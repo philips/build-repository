@@ -1,0 +1,3 @@
+mkdir etc
+echo "znc:x:1000:" > etc/group
+echo "znc:x:1000:1000:znc,,,:/:/usr/bin/znc" > etc/passwd
